@@ -13,3 +13,18 @@ i {
   font-size: 2rem;
   color: #306230;
 }
+
+.command-p {
+  margin: 8px 0;
+}
+
+.command {
+  color: #9bbc0f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: black;
+  padding: 0.3rem;
+  border-radius: 3px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.6);
+  margin-right: 5px;
+}
