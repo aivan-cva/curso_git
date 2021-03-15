@@ -46,6 +46,26 @@
         <p class="command-p"><span class="command">git pull origin master --allow-unrelated-histories</span>
           Trae los cambios del repositorio y los cambia en local.
         </p>
+        <p class="command-p"><span class="command">git remote set-url origin URL</span>
+          Cambiar la url de donde se hace el fetc y el push del repositorio remoto.
+        </p>
+        <p class="command-p"><span class="command">git log --all --graph --decorate --oneline</span>
+          Muestra el log con las diferentes ramas de forma visual.
+        </p>
+        <p class="command-p"><span class="command">git tag -a V0.1 -m "Comentariio" 1b56489</span>
+          Agrega un tag al commit declarado en el comando.
+          
+        </p>
+        <p class="command-p"><span class="command">git show-ref --tags</span>
+          Muestra los tags y a donde estan asignados.
+          los tags se deben pushear al repositorio git push origin --tags.
+        </p>
+        <p class="command-p"><span class="command">git tag -d TAGNAME</span>
+          Borra el tag , para borrarlo en github se usa git push origin :refs/tags/TAGNAME
+        </p>
+        <p class="command-p"><span class="command">git show-branch</span>
+          Historia de las ramas show-branch --all
+        </p>
     </section>
   </body>
 </html>
