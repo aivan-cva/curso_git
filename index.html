@@ -79,6 +79,32 @@
         <p class="command-p"><span class="command">git rebase</span>
           Pega una rama entera en otra rama. Reescribe la historia del proyecto entero y no es recomendado usarlo.
         </p>
+        <p class="command-p"><span class="command">git stash</span>
+          Permite guardar cambios temporalmente en memoria para poder cambiar a otra rama sin tener que hacer un commit o restaurar el documento al estado actual.
+        </p>
+        <p class="command-p"><span class="command">git stash list</span>
+          Muestra los stash
+        </p>
+        <p class="command-p"><span class="command">git stash pop</span>
+         Inyecta los cambios en el stash en la rama actual.
+        </p>
+        <p class="command-p"><span class="command">git stash save "IDENTIFICADOR"</span>
+          Podemos poner un mensaje en el stash, para asi diferenciarlos en git stash list por si tenemos varios elementos en el stash
+        </p>
+        <p class="command-p"><span class="command">git stash branch RAMA</span>
+          Crea una rama con los cambios del stash.
+        </p>
+        <p class="command-p"><span class="command">git stash drop</span>
+          Borra los contenidos del stash.
+        </p>
+        <p class="command-p"><span class="command">git clean</span>
+          Borra los archivos exeptuando los que estan en .git o dentro de una carpeta,
+          git clean --dry-run (es un simulacrop ara saber que se va a borrar).
+          git clean -f fuerza a git a borrar los archivos .
+        </p>
+        <p class="command-p"><span class="command">git cherry-pick 0f3ab56</span>
+          Trae los cambios de un commit de una rama diferente, no es recomendado por que cambia la historia del repositorio
+        </p>
     </section>
   </body>
 </html>
